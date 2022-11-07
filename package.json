@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "node server/app.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node server/app.js"
   },
   "engines": {
     "node": "14.x"

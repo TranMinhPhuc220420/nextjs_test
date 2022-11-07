@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "node server/app.js",
+    "dev": "node app.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server/app.js"
+    "start": "cross-env NODE_ENV=production node app.js"
   },
   "engines": {
     "node": "14.x"
